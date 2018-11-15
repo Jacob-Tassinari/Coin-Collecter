@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86447B77219370A600C17E3C /* TableViewCellLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86447B76219370A600C17E3C /* TableViewCellLow.swift */; };
+		86447B79219378BE00C17E3C /* AddGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86447B78219378BE00C17E3C /* AddGameViewController.swift */; };
 		86AA8B6021875BC3008B45FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8B5F21875BC3008B45FF /* AppDelegate.swift */; };
-		86AA8B6221875BC3008B45FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8B6121875BC3008B45FF /* ViewController.swift */; };
 		86AA8B6521875BC3008B45FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AA8B6321875BC3008B45FF /* Main.storyboard */; };
 		86AA8B6721875BC5008B45FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AA8B6621875BC5008B45FF /* Assets.xcassets */; };
 		86AA8B6A21875BC5008B45FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AA8B6821875BC5008B45FF /* LaunchScreen.storyboard */; };
+		86AA8B7221875D2C008B45FF /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8B7121875D2C008B45FF /* LibraryViewController.swift */; };
+		86AA8B74218777C6008B45FF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8B73218777C6008B45FF /* Game.swift */; };
+		86AA8B7621877D1D008B45FF /* LibraryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8B7521877D1D008B45FF /* LibraryClass.swift */; };
+		C615FD08642CC7EDE12076A4 /* Pods_Coin_Collecter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC03392BDA6202FF9BD5318 /* Pods_Coin_Collecter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E8A9F96C1FBED1A7CA084AB /* Pods-Coin-Collecter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coin-Collecter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coin-Collecter/Pods-Coin-Collecter.debug.xcconfig"; sourceTree = "<group>"; };
+		6FC03392BDA6202FF9BD5318 /* Pods_Coin_Collecter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coin_Collecter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FD14E0F77BBE6989E1018F /* Pods-Coin-Collecter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coin-Collecter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coin-Collecter/Pods-Coin-Collecter.release.xcconfig"; sourceTree = "<group>"; };
+		86447B76219370A600C17E3C /* TableViewCellLow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellLow.swift; sourceTree = "<group>"; };
+		86447B78219378BE00C17E3C /* AddGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameViewController.swift; sourceTree = "<group>"; };
 		86AA8B5C21875BC3008B45FF /* Coin-Collecter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin-Collecter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AA8B5F21875BC3008B45FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86AA8B6121875BC3008B45FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86AA8B6421875BC3008B45FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86AA8B6621875BC5008B45FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86AA8B6921875BC5008B45FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86AA8B6B21875BC5008B45FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AA8B7121875D2C008B45FF /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		86AA8B73218777C6008B45FF /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		86AA8B7521877D1D008B45FF /* LibraryClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C615FD08642CC7EDE12076A4 /* Pods_Coin_Collecter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2098E8F761F49DC9FB9010CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FC03392BDA6202FF9BD5318 /* Pods_Coin_Collecter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		86AA8B5321875BC3008B45FF = {
 			isa = PBXGroup;
 			children = (
 				86AA8B5E21875BC3008B45FF /* Coin-Collecter */,
 				86AA8B5D21875BC3008B45FF /* Products */,
+				E49A475F3A04992A37B1B16D /* Pods */,
+				2098E8F761F49DC9FB9010CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +78,26 @@
 			isa = PBXGroup;
 			children = (
 				86AA8B5F21875BC3008B45FF /* AppDelegate.swift */,
-				86AA8B6121875BC3008B45FF /* ViewController.swift */,
+				86AA8B7521877D1D008B45FF /* LibraryClass.swift */,
+				86447B78219378BE00C17E3C /* AddGameViewController.swift */,
+				86447B76219370A600C17E3C /* TableViewCellLow.swift */,
+				86AA8B73218777C6008B45FF /* Game.swift */,
+				86AA8B7121875D2C008B45FF /* LibraryViewController.swift */,
 				86AA8B6321875BC3008B45FF /* Main.storyboard */,
 				86AA8B6621875BC5008B45FF /* Assets.xcassets */,
 				86AA8B6821875BC5008B45FF /* LaunchScreen.storyboard */,
 				86AA8B6B21875BC5008B45FF /* Info.plist */,
 			);
 			path = "Coin-Collecter";
+			sourceTree = "<group>";
+		};
+		E49A475F3A04992A37B1B16D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E8A9F96C1FBED1A7CA084AB /* Pods-Coin-Collecter.debug.xcconfig */,
+				83FD14E0F77BBE6989E1018F /* Pods-Coin-Collecter.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86AA8B6E21875BC5008B45FF /* Build configuration list for PBXNativeTarget "Coin-Collecter" */;
 			buildPhases = (
+				A46023A1D5C385E159AC58CC /* [CP] Check Pods Manifest.lock */,
 				86AA8B5821875BC3008B45FF /* Sources */,
 				86AA8B5921875BC3008B45FF /* Frameworks */,
 				86AA8B5A21875BC3008B45FF /* Resources */,
+				0A209B2FBA9DF5336325EDF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +168,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A209B2FBA9DF5336325EDF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Coin-Collecter/Pods-Coin-Collecter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coin-Collecter/Pods-Coin-Collecter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A46023A1D5C385E159AC58CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coin-Collecter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86AA8B5821875BC3008B45FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86AA8B6221875BC3008B45FF /* ViewController.swift in Sources */,
+				86447B77219370A600C17E3C /* TableViewCellLow.swift in Sources */,
+				86AA8B7621877D1D008B45FF /* LibraryClass.swift in Sources */,
+				86447B79219378BE00C17E3C /* AddGameViewController.swift in Sources */,
+				86AA8B7221875D2C008B45FF /* LibraryViewController.swift in Sources */,
+				86AA8B74218777C6008B45FF /* Game.swift in Sources */,
 				86AA8B6021875BC3008B45FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +365,7 @@
 		};
 		86AA8B6F21875BC5008B45FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8A9F96C1FBED1A7CA084AB /* Pods-Coin-Collecter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +383,7 @@
 		};
 		86AA8B7021875BC5008B45FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FD14E0F77BBE6989E1018F /* Pods-Coin-Collecter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
